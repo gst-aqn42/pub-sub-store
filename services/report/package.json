@@ -1,11 +1,11 @@
 {
-  "name": "report",
+  "name": "report-service",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+  "main": "app.js",
+  "license": "MIT",
+  "description": "Serviço de relatório para o pub-sub-store",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "dotenv": "^10.0.0"
+  }
 }
